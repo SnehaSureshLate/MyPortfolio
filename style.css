@@ -1,0 +1,464 @@
+*body{
+    background-color: black;
+
+  }
+  .container{
+    border: 2px solid black;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px; 
+  }
+  .navbar {
+      height: 150px;
+      color: white;
+      background-color: rgb(50, 51, 49);
+      padding: 10px 0  10px 0;
+      overflow: hidden;
+      box-shadow: 10px rgba(37, 211, 10, 0.1);
+      background: rgb(131,58,180);
+      background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(94,51,51,1) 50%, rgba(69,252,191,0.5551470588235294) 100%);
+  }
+
+  .logo {
+      margin: 10px;
+      width: 40%;
+      padding: 20px;
+  }
+  .word{
+    display: flex;
+  }
+
+  .logo h1{
+      margin: 10px 0px 0px 60px;
+      font-family: Georgia, 'Times New Roman', Times, serif ;
+  }
+  .logo h2{
+    margin-left: 100px;
+    position: absolute;
+    right: 200px; 
+    top: 10px;
+    color: rgb(116, 44, 18); 
+    font-size: 40px;
+  }
+
+  .links{
+      position: absolute;
+      top: 140px;
+      right: 80px;
+      width: 83%;
+      height: 80px;
+      background: rgb(15,15,15);
+      background: linear-gradient(292deg, rgba(15,15,15,0.8240546218487395) 33%, rgba(162,33,81,1) 100%);
+      border: 1px solid rgb(26, 248, 144);
+      border-bottom: 5px solid;
+  }
+
+  .navlinks {
+      display: inline-block;
+  }
+  .navlinks a{
+      text-decoration: none;
+      color: rgb(242, 242, 245);
+      margin: 20px;
+      padding: 50px;
+      font-size: 20px;
+      text-align: center;
+      justify-content: center;
+  }
+
+
+  .main-content{
+    position: relative;
+    top: 10px;
+    background-color: rgb(250, 241, 230);
+  }
+
+  
+  .About{
+    margin: 25px;
+  }
+  .name h2{
+    margin: 10px;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(12, 90, 93);
+    font-family: inherit;
+  }
+
+  .About h3{
+    margin: 10px;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(12, 90, 93);
+    font-family: inherit;
+    margin-bottom: 25px;
+  }
+
+  .About p{
+    text-align: center;
+    justify-content: center;
+    margin: 20px 70px 10px 70px;
+    padding: 10px 70px 0px 70px;
+    font-size: 20px;
+    
+  }
+  .info{
+    display: flex;
+  }
+ 
+  .image img{
+    margin-left: 100px;
+    margin-top: 20px;
+    border: 1px solid black;
+  }
+  .sidebar{
+    margin: 10px ;
+    padding: 10px;
+  }
+
+  .sidebar h1{
+    margin-top: 1px;
+    color: rgb(23, 110, 113);
+    font-size: 40px;
+    margin-bottom: 40px;
+  }
+  .sidebar h2{
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(90, 92, 92);
+    margin-bottom: 30px;
+  }
+
+  .sidebar h2 a{
+    text-decoration: none;
+    color: rgb(45, 122, 124);
+  }
+  .button:hover{
+    background-color: #176b80;
+    
+  }
+  .button{
+    margin: 20px 30px;
+    padding: 20px 30px;
+    border: 1px solid black;
+    background-color: rgb(41, 60, 118);
+  }
+  .btn{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  .portfolio{
+    margin: 10px;
+    padding: 10px;
+    background: rgb(76, 35, 135);
+    background: linear-gradient(90deg, rgb(14, 30, 90) 0%, rgb(15, 87, 81) 50%, rgba(61, 12, 100, 0.555) 100%);
+  }
+
+  .work{
+    margin: 10px;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(250, 250, 250);
+    font-family: inherit;
+  }
+  
+  .work-img{
+    display: flex;
+  }
+  .portfolio img{
+    box-shadow: 20px;
+    margin: 30px;
+    padding: 20px;
+    width: 350px;
+    height: 300px;
+  }
+
+  .skills{
+    list-style: none;
+    background-color: rgb(68, 67, 67);
+    width: 500px;
+    margin: 60px auto;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+
+
+  .skills h1{
+    text-align: center;
+  }
+
+  .skills h3{
+    margin: 5px;
+  }
+
+  .skills li{
+    margin: 20px 0px;
+    padding: 10px;
+
+  }
+
+  .bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+
+  .bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+
+  .bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+  }
+
+  .html{
+    width: 80%;
+    animation: html 3s;
+  }
+
+  .CSS{
+    width: 90%;
+    animation: CSS 3s;
+  }
+
+  .JavaScipt{
+    width: 40%;
+    animation: JavaScipt 3s;
+  }
+
+  @keyframes html{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 80%;
+    }
+  }
+
+  @keyframes CSS{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 90%;
+    }
+  }
+
+  @keyframes JavaScipt{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 40%;
+    }
+  }
+
+  @keyframes Multi-Tasking{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 90%;
+    }
+  }
+
+  .Multi-Tasking{
+    width: 90%;
+    animation: Multi-Tasking 3s;
+  }
+
+  .experience{
+    margin: 10px;
+    padding: 30px 0px;
+    background: rgb(243, 10, 181);
+    background: linear-gradient(90deg, rgb(199, 19, 187) 0%, rgb(22, 167, 155) 50%, rgba(239, 245, 84, 0.555) 100%);
+  }
+
+  .experience h1{
+    margin: 10px;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(5, 5, 5);
+    font-family: inherit;
+  }
+
+  .internship{
+    display: flex;
+  }
+
+  .duration{
+    border-right: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+  }
+  .duration h3{
+    margin: 20px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    color: aliceblue;
+    border-bottom: 2px solid black;
+  }
+
+  .namecomp{
+    margin-left: 20px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    color: aliceblue;
+  }
+
+  .duration p{
+    padding-left: 40px;
+    font-size: 18px;
+    color: aliceblue;
+  }
+
+  .description{
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .description h2{
+    margin: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    font-size: 40px;
+    color: aliceblue;
+  }
+
+  .description h4{
+    margin: 20px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    color: aliceblue;
+  }
+
+  .description ul li{
+    margin: 20px;
+    font-size: 25px;
+    border-bottom: 1px solid black;
+    border-width: 3px;
+    color: rgb(251, 251, 230);
+  }
+
+  .description h3{
+    margin: 20px;
+    padding-bottom: 8px;
+    font-size: 22px;
+    color: rgb(19, 19, 19);
+  }
+
+  .description p{
+    margin: 20px;
+    padding-left: 30px;
+    font-size: 18px;
+    color: rgb(69, 3, 3);
+  }
+
+
+  .contacts{
+    padding: 30px 0px;
+    background-color: rgb(216, 234, 251);
+  }
+
+  .services-info{
+    margin: 10px;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(12, 90, 93);
+    font-family: inherit;
+  }
+
+  .contacts h3{
+    margin: 10px;
+    font-size: 25px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(12, 90, 93);
+    font-family: inherit;
+    margin-bottom: 25px;
+  }
+  .contact-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact-left-col{
+    flex-basis: 50%;
+    padding-top: 50px;
+  }
+
+  .contact-right-col{
+    flex-basis: 50%;
+    max-width: 500px;
+    margin: 0px 0px 0px 100px;
+  }
+  .contact-right-col i{
+    font-size: 15px;
+    padding: 10px;
+    background: #176b80;
+    color: white;
+  }
+
+  .contact-right-col p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .form{
+    width:70%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .form input[type="text"]{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  textarea{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .button1:hover{ 
+    background-color: #176b80;
+  }
+
+  .button1{
+    margin: 10px 350px;
+    padding: 10px 30px;
+    border: 1px solid black;
+    background-color: rgb(41, 60, 118);
+  }
+  .btn1{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+  }
+  
+  .footer{
+    background: rgb(99, 12, 61);
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
